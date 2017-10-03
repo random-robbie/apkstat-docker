@@ -28,7 +28,7 @@ get the appId and then type
 
 ```
 apkstat com.whatever.com
-``
+```
 
 and apkstat will get to work!
 
