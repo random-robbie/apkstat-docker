@@ -16,7 +16,26 @@ apkstat apkstat com.facebook.katana
 
 
 
+It uses https://github.com/matlink/gplaycli to download the APK.
+
+You can search for an apk inside the docker by issues the command
+
+```
+gplaycli -s "name of app"
+```
+
+get the appId and then type
+
+```
+apkstat com.whatever.com
+``
+
+and apkstat will get to work!
+
+
+
 FROM https://github.com/hexabin/APKStat
+-------
 
 # APKStat
 Save time during your initial analysis of an Android APK file. APK Stat will grab most of the information you need in your initial assessment right away and output the information in an easy to read set of text files.
