@@ -1,0 +1,2 @@
+#!/bin/bash
+gplaycli -d $1 -f /APKStat/ && python /APKStat/apkstat.py $1.apk
