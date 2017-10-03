@@ -5,6 +5,14 @@ This docker container has a slight change to it.
 
 You can download the APK direct and extract the details using apk stat
 
+Example
+---
+```
+docker run -it txt3rob/apkstat-docker
+apkstat apkstat com.facebook.katana
+```
+
+[![Capture.png](https://s1.postimg.org/19eou117cv/Capture.png)](https://postimg.org/image/91fttnu5x7/)
 
 
 
